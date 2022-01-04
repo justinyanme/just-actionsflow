@@ -1,9 +1,9 @@
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=3
+    url: https://justinyan.me/feed
 jobs:
   print:
-    name: Print
+    name: JustinYan
     runs-on: ubuntu-latest
     steps:
       - name: Print Outputs
